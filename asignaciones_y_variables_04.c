@@ -2,7 +2,7 @@
 *
 *	Título: EJERCICIOS DE VARIABLES Y ASIGNACIONES 4
 *	Consigna: Ingresar los lados de un triángulo calcular su perímetro.
-* Alumno: Nicolás Esteban Olmedo
+*	Alumno: Nicolás Esteban Olmedo
 *
 */
 

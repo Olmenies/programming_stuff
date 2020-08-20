@@ -2,7 +2,7 @@
 *
 *	Nombre del ejercicio: EJERCICIO DE VARIABLES Y ASIGNACIONES 1
 *	Consigna: Ingresar dos valores enteros y sumarlos
-* Alumno: Nicolás Esteban Olmedo
+*	Alumno: Nicolás Esteban Olmedo
 *
 */
 

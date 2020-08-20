@@ -2,7 +2,7 @@
 *
 *	Nombre del ejercicio: EJERCICIO DE VARIABLES Y ASIGNACIONES 2
 *	Consigna: Ingresar tres valores, imprimir la suma total, sólo sabe sumar de a dos.
-* Alumno: Nicolás Esteban Olmedo
+*	Alumno: Nicolás Esteban Olmedo
 *
 */
 

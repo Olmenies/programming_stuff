@@ -2,7 +2,7 @@
 * 
 * Título: EJERCICIOS DE VARIABLES Y ASIGNACIONES 5
 * Consigna: Ingresar dos lados de un triángulo rectángulo y calcular, la hipotenusa, el perímetro, la superficie.
-* Alumno: Nicolás Esteban Olmedo
+*	Alumno: Nicolás Esteban Olmedo
 *
 */
 
