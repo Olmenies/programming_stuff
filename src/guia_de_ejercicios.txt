@@ -1,0 +1,284 @@
+EJERCICIOS DE VARIABLES Y ASIGNACIONES
+1. Ingresar dos valores enteros y sumarlos.
+2. Ingresar tres valores, imprimir la suma total, sólo sabe sumar de a dos.
+3. Ingresar tres valores y sumarlos, se puede sumar de a varios operandos.
+4. Ingresar los lados de un triángulo calcular su perímetro.
+5. Ingresar dos lados de un triángulo rectángulo y calcular, la hipotenusa, el perímetro, la superficie.
+6. Ingresar los lados de un rectángulo y calcular su diagonal principal, superficie y perímetro.
+7. Ingresar dos valores, calcular su suma, su producto y la resta del 1ro menos el 2do.
+8. Ingresar el valor de la hora y el tiempo trabajado por un operario, calcular su sueldo.
+9. Ingresar el tiempo trabajado por un operario y si el valor de la hora es de 10 pesos, calcular su sueldo.
+10. Una concesionaria de autos paga a cada vendedor $ 500 por mes más un plus del 10 % del precio sobre cada vehículo vendido y un valor constante de 50 pesos por cada uno de ellos, sólo vende un tipo de vehículo, calcular su sueldo.
+
+EJERCICIOS DE OPERACIONES CONDICIONALES
+1. Ingresar dos valores, indicar si son iguales.
+2. Ingresar un valor indicar si es positivo, negativo o cero.
+3. Ingresar dos valores y realizar el producto, si el 1ro es mayor al 2do, si son iguales solo indicarlo.
+4. Ingresar dos valores y realizar la resta del mayor menos el menor.
+5. Ingresar los tres lados de un triángulo e indicar que tipo de triángulo es.
+6. Ingresar tres valores, sumarlos, calcular el promedio e indicar cúal de estos valores es mayor al promedio.
+7. Ingresar cuatro valores, sumar el 1ro y el 2do, el 3ro y el 4to, indicar cúal de esta sumas es mayor.
+8. Ingresar la edad y la altura de dos personas, indicar la estatura del de mayor edad.
+9. Ingresar el valor de la hora y el tiempo trabajado por un empleado, calcular su sueldo si se sabe que recibe un premio de $ 100 si trabajo más de 50 hs y si trabajo más de 150 hs le dan $ 100 adicionales.
+10. Ingresar tres valores correspondientes al día, mes y año de una fecha, indicar si es válida, considerar los años bisiestos (existe una funcion que devuelve “B” en caso de bisiesto y “N” si no lo es).
+11. Ingresar el sueldo, categoría y antigüedad de un empleado, calcular el sueldo final si se le da $ 50 por cada año trabajado a cada empleado de la categoria 1.
+12. Sobre los datos del ejercico anterior imprimir los sueldos de los empleados con más de 5 años de antigüedad.
+13. Ingresar las horas trabajadas por un empleado y su categoría, calcular su sueldo si se sabe que los de la categoría 1 cobran $50, la 2 cobra $ 70 y la 3 cobra $ 80.
+
+EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES
+1. Ingresar 25 números, calcular su promedio.
+2. Ingresar 20 notas y nombres de alumnos, indicar los aplazados ( menos de 4) y el nombre a quien pertenece esa nota.
+3. Ingresar N sueldos e indicar su suma y su promedio.
+4. Ingresar facturas hasta nro de factura = 0, sumar sus importes, indicar el total gastado y cúales y cuantas superan los $1000.
+5. Sobre el ejercicio anterior indicar cuántas superan los $ 10000.
+6. Sobre el ejercicio anterior indicar cuántas estan entre $ 400 y $ 700 inclusive.
+7. Ingresar 10 valores, indicar cuántos son positivos, cuántos negativos y cuántos ceros.
+8. Ingresar valores hasta uno = 0, indicar la cantidad de números ingresados y su promedio.
+9. Ingresar nombres y notas de alumnos teniendo en cuenta que la carga finaliza con nota =.
+10. Calcular el promedio, imprimir los aprobados, cuántos estan entre 4 y 6.
+11. Ingresar la patente y monto de la multa de 50 autos, indicar cuántos montos superan los $40 y del total cobrado que porcentaje representa la suma de estos últimos.
+11. Ingresar N valores y calcular promedio de positivos, de negativos y cantidad de ceros.
+12. Ingresar los datos de facturación de una empresa.
+
+		A. Número de factura
+		B. Número de artículo
+		C. Cantidad vendida
+		D. Precio unitario
+		
+		Los datos finalizan con numero de factura = 0, cada factura sólo tiene un número de artículo, existen tres artículos.
+		Se desea saber:
+		
+		A. Valor de cada factura.
+		B. Facturación total.
+		C. Cuánto se vendio del artículo 1 en cantidad.
+		D. Cuántas facturas mayores de $ 3000 se hicieron.
+		E. Qué porcentaje representa el monto vendido por cada artículo sobre el total.
+		
+EJERCICIOS SOBRE MAXIMOS y MINIMOS
+1. Ingresar N temperaturas e indicar la máxima y mínima.
+2. Ingresar temperaturas hasta una temperatura igual a 1000, indicar la mayor y menor.
+3. Ingresar los sueldos y nombres de 30 empleados, indicar el sueldo mayor y a quién pertenece.
+4. Ingresar las edades y estaturas de los alumnos, calcular la edad promedio, la edad mayor y la estatura menor, los datos finalizan con edad = 0.
+5. En una carrera de autos se ingresan el número de auto y su tiempo, indicar cuál ganó y cúal fue el último.
+6. Ingresar el precio de N artículos, indicar el más caro, el más barato, el precio promedio y la suma de todos los precios.
+
+EJERCICIOS COMBINADOS - Emprolijar desde acá para abajo
+1. En una empresa los empleados cobran un sueldo según la categoria, son 50 empleados y 3 categorías.
+		A. Categoría 1 = $ 1500
+		B. Categoría 2 = $ 2000
+		C. Categoría 3 = $ 2500
+		
+Al sueldo se le suman $ 100 por cada año trabajado.
+Si se ingresa el nombre, categoría y antigüedad de cada empleado, calcular:
+		A. Cuántos empleados hay por categoría.
+		B. Total de sueldos pagados por categoría.
+		C. Sueldo promedio general.
+		D. Sueldo máximo y a quién pertenece.
+		E. Qué porcentuel sobre el total de sueldos representa cada total de sueldos de las categorías.
+		
+2. Una empresa conoce el nombre, sueldo y categoría de sus empleados, son 4 categorías, y la cantidad de empleados es variable N. Se desea saber:
+		A. Cantidad de empleados por categoría.
+		B. Cantidad de empleados que cobran mas de $ 2000.
+		C. Cantidad de empleados de la categoría 1 con sueldo mayor a $ 1000.
+		D. Sueldo máximo y a qué empleado pertenece.
+		E. Sueldo mínimo y a que empleado pertenece.
+		F. Categoría con más empleados.
+		G. Porcentual en cantidad de empleados de cada categoría sobre el total de la empresa.
+		
+3. Una empresa desea procesar las ventas que efectúa conociendo los siguientes datos:
+		A. Número de factura
+		B. Código de articulo
+		C. Cantidad vendida
+		D. Precio unitario
+		E. En cada factura sólo se vende un tipo de artículo, los artículos son 6 y los datos
+finalizan con número de factura = 0
+Se pide :
+A. cantidad de facturas emitidas
+B. monto de cada factura
+C. suma de las facturas (caja diaria)
+D.
+E.
+F.
+G.
+H.
+cantidad total de artículos vendidos
+cantidad vendida de cada artículo
+cantidad de facturas emitidas para cada artículo
+promedio de importe de las facturas
+porcentual que representa el monto total de cada artículo sobre el total
+4. Una companía aérea vende boletos en 3 aeropuertos mediante 6 empleados, cada vez
+que realiza una venta tiene los siguientes datos:
+número de aeropuerto
+número de empleado
+valor del pasaje
+cantidad de pasajes
+los datos finalizan con número de empleado = 99, se desea saber
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+cantidad de pasajes vendidos por aeropuerto
+cantidad de pasajes vendidos por cada empleado
+monto total vendido por empleado
+boleto de mayor valor
+porcentual que representa lo vendido por cada aeropuerto en dinero sobre el total
+cantidad de ventas que excedieron los $ 1000
+si cada boleto ya tiene incorporado el 10,5% de iva sobre el valor del boleto,
+cuánto hay que pagarle al fisco
+H. si sobre el total hay que pagar el 3% de ingresos brutos, cuál es ese monto
+5. Un restaurant tiene 6 mozos y 12 mesas, cada vez que cobran una mesa se anotan los
+siguientes datos, que terminan con número de factura = 0
+número de factura
+número de mozo
+número de mesa
+cantidad de personas que comieron
+monto de la cuenta
+Se desea saber lo siguiente
+A.
+B.
+C.
+D.
+E.
+F.
+cantidad de personas atendidas por cada mozo
+cantidad de facturas realizadas
+caja diaria realizada
+monto facturado por cada mesa en total
+porcentual facturado por cada mozo sobre el total
+si a cada mozo se le da el 5% de su venta cuánto le corresponde a cada uno
+G. cuál mozo atendió más personas en total
+H. cuántas facturas superaron $ 45
+I. mesa a la que se facturó más veces, o sea que más recambio de clientes tuvo
+6. Un supermercado realiza un estudio sobre sus ventas, para ello cuenta con seis
+secciones y 10 cajas. cada vez que realiza una cuenta tiene los siguientes datos
+número de caja
+número de seccion
+importe de la venta
+tiempo en caja
+cantidad de productos comprados
+nro de ticket
+los datos finalizan con número de caja = 0, si la compra supera los $50, se le realiza
+un 2% de descuento, se desea saber
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+cantidad de tickets emitidos
+cantidad de tickets emitidos por caja
+ticket de mayor tiempo en caja
+monto recaudado por sección
+que porcentaje representa el monto recaudado por caja sobre el total
+cantidad de comprobantes con monto mayor a $ 100
+monto total descontado
+porcentual que representa el monto total descontado sobre el total vendido
+si cada cajero gana el 20 % de su recaudación cuánto cobra cada uno
+7. Una cartelera de cine tiene 5 sucursales y vende a un precio de 7 pesos las entradas para
+sus salas en los 3 turnos, si compran mas de 8 asientos en un solo ticket se le hará un 10%
+de descuento.
+En este momento se estan exhibiendo las siguientes películas
+1.
+2.
+3.
+4.
+Belleza americana
+El informante
+La hija del general
+Al filo de la muerte
+Cada vez que compran, le dan un ticket donde figuran
+
+
+
+
+Número de sucursal
+Número de película
+Cantidad de asientos comprados
+TurnO
+Se desea saber
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+h.
+Cantidad de asientos vendidos en cada turno
+Pelicula de mayor recaudación
+Sucursal que vendió menos en total en pesos
+Si cada sucursal recibe un 20% de lo recaudado, cuánto ganó c/u
+Porcentual que representa lo recaudado por pelicula sobre el total
+Ticket de menor valor
+Cantidad de asientos vendidos para la pelicula 2 en la sucursal 3 y turno Tarde
+Cuál fue el promedio de asientos solicitados por cada sucursal
+8. Un noticiero de TV tiene 10 comentaristas para cubrir 5 móviles, al término de
+cada transmisión presentan un informe con los siguientes datos
+código de comentarista
+número de movil
+categoría
+cantidad de horas
+localidad
+las categorias son 3
+1. policiales
+2. políticas
+3. economía
+las localidades son 4
+1.
+2.
+3.
+4.
+Capital Federal
+Gran Bs. As.
+interior
+exterior
+Se desea saber
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+h.
+cantidad de hs trabajadas por cada comentarista
+localidad desde donde se transmitió más veces
+porcentual que representa la totalidad en hs de cada categoría sobre el total
+promedio de hs trabajadas por cada comentarista
+cantidad de veces que se transmitió política desde el exterior
+que categoría fue la menos transmitida en total
+que transmisión fue la de mayor duracion en hs
+el comentarista 1 en que localidad trabajó más
+9. Una empresa de micros vende boletos a 3 destinos
+Mar del Plata
+Necochea
+Bahía Blanca
+tiene 2 clases
+Turista
+Pullman
+$ 25.-
+$ 40.-
+Cada vez que realiza una venta representa un asiento y se tiene la siguiente
+información:
+a. número de ticket
+b. número de destino
+c. número de clase
+se desea saber
+1.
+2.
+3.
+4.
+5.
+6.
+cantidad total de boletos vendidos
+promedio del valor de boleto vendido en dinero
+porcentual que representa la cantidad vendida en cada clase sobre el total
+cuántos boletos se vendieron a necochea en pullman
+cuál destino es el más solicitado en total
+cuál clase en total es la menos solicitada
