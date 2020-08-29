@@ -1,7 +1,7 @@
 /*
 *
-*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES
-*	Consigna: Ingresar dos valores, indicar si son iguales.
+*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES 2
+*	Consigna: Ingresar un valor indicar si es positivo, negativo o cero.
 *	Alumno: Nicolás Esteban Olmedo
 *
 */
@@ -16,26 +16,31 @@
 void clrscr(void);
 
 /* Función principal */
-int main()
+int main() 
 {
 	clrscr();
+	
 	/* Declaraciones locales */
-	int valor0, valor1;
+	int valor;
 	
 	/* Input de data */
-	printf("Ingresar dos valores: ");
-	scanf("%d" "%d", &valor0, &valor1);
-
+	printf("Introducir un entero: ");
+	scanf("%d", &valor);
+	
 	/* Procesamiento de data */
+	
 	/* Output de data */
-		if(valor0 == valor1)
-			puts("Los valores ingresados son iguales");
-		return 0;
+	if (valor > 0) 
+		printf("%d es positivo.\n", valor);
+	else if (valor == 0) 
+		printf("%d es cero.\n", valor);
+	else 
+		printf("%d es negativo\n", valor);
+	return 0;
 }
 
 /* Otras funciones */
 	/* Definición de clrscr() */
-void clrscr(void)
-{
+void clrscr(void) {
 	system("clear");
 }
