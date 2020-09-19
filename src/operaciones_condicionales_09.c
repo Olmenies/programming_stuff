@@ -34,11 +34,11 @@ int main() {
 	/* Procesamiento de data */
 	if (cant_hora > 50) {
 		if (cant_hora > 150) {
+			bono = 200;
+			printf("¡Enhorabuena! Te ganaste un bono de $200\n");
+		} else { 
 			bono = 100;
 			printf("¡Enhorabuena! Te ganaste un bono de $100\n");
-		} else { 
-			bono = 50;
-			printf("¡Enhorabuena! Te ganaste un bono de 50\n");
 		}}	 else 
 			bono = 0;
 			
