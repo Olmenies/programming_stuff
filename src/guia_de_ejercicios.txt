@@ -34,9 +34,8 @@ EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES
 6. Sobre el ejercicio anterior indicar cuántas estan entre $ 400 y $ 700 inclusive.
 7. Ingresar 10 valores, indicar cuántos son positivos, cuántos negativos y cuántos ceros.
 8. Ingresar valores hasta uno = 0, indicar la cantidad de números ingresados y su promedio.
-9. Ingresar nombres y notas de alumnos teniendo en cuenta que la carga finaliza con nota =.
-10. Calcular el promedio, imprimir los aprobados, cuántos estan entre 4 y 6.
-11. Ingresar la patente y monto de la multa de 50 autos, indicar cuántos montos superan los $40 y del total cobrado que porcentaje representa la suma de estos últimos.
+9. Ingresar nombres y notas de alumnos teniendo en cuenta que la carga finaliza con nota =11 calcular el promedio, imprimir los aprobados, cuántos estan entre 4 y 6.
+10. Ingresar la patente y monto de la multa de 50 autos, indicar cuántos montos superan los $40 y del total cobrado que porcentaje representa la suma de estos últimos.
 11. Ingresar N valores y calcular promedio de positivos, de negativos y cantidad de ceros.
 12. Ingresar los datos de facturación de una empresa.
 

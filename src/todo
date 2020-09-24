@@ -1,0 +1,10 @@
+() Arreglar todos los gráficos de flujo
+	() Checkear que se correspondan con el código
+	() Agregar análisis de I/O
+
+() Ciclos -> Cambiar while(1) por do/while con if para pedir input
+	() ciclos_04.c
+	() ciclos_05.c
+	() ciclos_06.c
+
+() Ciclos -> Hacer problema 9 -> LA CONSIGNA ESTÁ REDACTADA COMO EL ORTO
