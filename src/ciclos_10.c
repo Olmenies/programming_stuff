@@ -26,19 +26,18 @@ int main()
 	int i,cont_m40;
 	float acum_m40=0, acum_total=0, importe_multa, porcentaje_m40;
 
-	int condicion_salida=10;
+	int condicion_salida=50;
 
 	/* Input de data */
 	for (i=0;i<=(condicion_salida-1);i++)
 	{
-		printf("Ingresar patente: ");
+		printf("Ingresar patente(%d restantes): ",(condicion_salida-i));
 		fflush(stdin);
 		scanf("%s", patente);
 		printf("Ingresar importe de la multa: ");
 		scanf("%f", &importe_multa);
 
 		printf("Patente: %s\n",patente);
-		printf("Iteración: %d\n",i);
 		printf("Importe: %f\n",importe_multa);
 
 		acum_total+=importe_multa;

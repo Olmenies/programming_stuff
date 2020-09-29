@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOES DE VARIABLES Y ASIGNACIONES
+*	Título: EJERCICIOES DE VARIABLES Y ASIGNACIONES 10
 *	Consigna: Una concesionaria de autos paga a cada vendedor $ 500 por mes más un plus del 10% del precio sobre cada vehículo vendido y un valor constante de 50 pesos por cada uno de ellos, sólo vende un tipo de vehículo, calcular su sueldo.
 *	Alumno: Nicolás Esteban Olmedo
 *

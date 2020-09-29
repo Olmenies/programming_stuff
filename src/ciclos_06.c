@@ -1,7 +1,7 @@
 /*
 *
-*	Título: EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES 05
-*	Consigna: Sobre el ejercicio anterior indicar cuántas superan los $ 10000
+*	Título: EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES 06
+*	Consigna: Sobre el ejercicio anterior indicar cuántas estan entre $ 400 y $ 700 inclusive.
 *	Alumno: Nicolás Esteban Olmedo
 *
 */

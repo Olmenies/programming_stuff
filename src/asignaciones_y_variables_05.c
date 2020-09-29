@@ -1,6 +1,6 @@
 /*
 * 
-*	Título: EJERCICIOS DE VARIABLES Y ASIGNACIONES 5
+*	Título: EJERCICIOS DE VARIABLES Y ASIGNACIONES 05
 *	Consigna: Ingresar dos lados de un triángulo rectángulo y calcular, la hipotenusa, el perímetro, la superficie.
 *	Alumno: Nicolás Esteban Olmedo
 *
@@ -26,7 +26,7 @@ int main() {
 	float cateto0, cateto1, hipotenusa, perimetro, area;
 	
 	/* Input de data */
-	printf("Introducir cateto los dos catetos: ");
+	printf("Introducir los dos catetos separados por un espacio: ");
 	scanf("%f" "%f", &cateto0, &cateto1);
 	
 	/* Procesamiento de data */
@@ -51,13 +51,14 @@ float calculo_hip(float arg0, float arg1) {
 	res = sqrt(pow(arg0,2)+pow(arg1,2));
 	return res;
 }
-
+	/* Definición calculo_perim() */
 float calculo_perim(float arg0, float arg1, float arg2) {
 	float res;
 	res = arg0 + arg1 + arg2;
 	return res;
 }
-
+	
+	/* Definición calculo_area() */
 float calculo_area(float arg0, float arg1) {
 	float res;
 	res = (arg0*arg1)/2;

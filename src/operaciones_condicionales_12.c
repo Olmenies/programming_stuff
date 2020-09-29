@@ -1,7 +1,7 @@
 /*
 *
-*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES 11 
-*	Consigna: Ingresar el sueldo, categoría y antigüedad de un empleado, calcular el sueldo final si se le da $ 50 por cada año trabajado a cada empleado de la categoria 1.
+*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES 12
+*	Consigna: Sobre los datos del ejercico anterior imprimir los sueldos de los empleados con más de 5 años de antigüedad.
 *	Alumno: Nicolás Esteban Olmedo
 *
 */

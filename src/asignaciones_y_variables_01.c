@@ -1,6 +1,6 @@
 /*
 *
-*	Nombre del ejercicio: EJERCICIO DE VARIABLES Y ASIGNACIONES 1
+*	Nombre del ejercicio: EJERCICIO DE VARIABLES Y ASIGNACIONES 01
 *	Consigna: Ingresar dos valores enteros y sumarlos
 *	Alumno: Nicolás Esteban Olmedo
 *
@@ -10,7 +10,6 @@
 #include <stdio.h>
 
 /* Macros del procesador */
-
 /* Declaraciones globales */
 	/* Declaraciones de variables globales */
 	/* Declaraciones de prototipos de funciones */

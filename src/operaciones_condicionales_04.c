@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES 05
+*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES 04
 *	Consigna: Ingresar dos valores y realizar la resta del mayor menos el menor.
 *	Alumno: Nicolás Esteban Olmedo
 *
@@ -19,6 +19,7 @@ int calc_resta(int arg0, int arg1);
 
 /* Función principal */
 int main() {
+	clrscr();
 	/* Declaraciones locales */
 	int val0, val1, res;
 	

@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES
+*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES 07
 *	Consigna: Ingresar cuatro valores, sumar el 1ro y el 2do, el 3ro y el 4to, indicar cúal de esta sumas es mayor.
 *	Alumno: Nicolás Esteban Olmedo
 *

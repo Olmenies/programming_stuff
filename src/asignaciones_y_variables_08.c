@@ -35,7 +35,7 @@ int main() {
 	sueldo = calculo_sueldo(cant_hora, valor_hora);
 	
 	/* Output de data */
-	printf("El sueldo del empleado %d es: $%f\n", codigo_oper, sueldo);
+	printf("El sueldo del empleado %d es: $%.2f\n", codigo_oper, sueldo);
 	return 0;
 }
 /*Otras funciones */

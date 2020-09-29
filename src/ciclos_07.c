@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES 7
+*	Título: EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES 07
 *	Consigna: Ingresar 10 valores, indicar cuántos son positivos, cuántos negativos y cuántos ceros.
 *	Alumno: Nicolás Esteban Olmedo
 *

@@ -28,7 +28,7 @@ EJERCICIOS DE OPERACIONES CONDICIONALES
 EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES
 1. Ingresar 25 números, calcular su promedio.
 2. Ingresar 20 notas y nombres de alumnos, indicar los aplazados ( menos de 4) y el nombre a quien pertenece esa nota.
-3. Ingresar N sueldos e indicar su suma y su promedio.
+3. Ingresar N sueldos e indicar su suma y su promedio.	
 4. Ingresar facturas hasta nro de factura = 0, sumar sus importes, indicar el total gastado y cúales y cuantas superan los $1000.
 5. Sobre el ejercicio anterior indicar cuántas superan los $ 10000.
 6. Sobre el ejercicio anterior indicar cuántas estan entre $ 400 y $ 700 inclusive.
@@ -61,7 +61,7 @@ EJERCICIOS SOBRE MAXIMOS y MINIMOS
 5. En una carrera de autos se ingresan el número de auto y su tiempo, indicar cuál ganó y cúal fue el último.
 6. Ingresar el precio de N artículos, indicar el más caro, el más barato, el precio promedio y la suma de todos los precios.
 
-EJERCICIOS COMBINADOS - Emprolijar desde acá para abajo
+EJERCICIOS COMBINADOS
 1. En una empresa los empleados cobran un sueldo según la categoria, son 50 empleados y 3 categorías.
 		A. Categoría 1 = $ 1500
 		B. Categoría 2 = $ 2000
@@ -89,195 +89,135 @@ Si se ingresa el nombre, categoría y antigüedad de cada empleado, calcular:
 		B. Código de articulo
 		C. Cantidad vendida
 		D. Precio unitario
-		E. En cada factura sólo se vende un tipo de artículo, los artículos son 6 y los datos
-finalizan con número de factura = 0
+		E. En cada factura sólo se vende un tipo de artículo, los artículos son 6 y los datos finalizan con número de factura = 0
 Se pide :
-A. cantidad de facturas emitidas
-B. monto de cada factura
-C. suma de las facturas (caja diaria)
-D.
-E.
-F.
-G.
-H.
-cantidad total de artículos vendidos
-cantidad vendida de cada artículo
-cantidad de facturas emitidas para cada artículo
-promedio de importe de las facturas
-porcentual que representa el monto total de cada artículo sobre el total
-4. Una companía aérea vende boletos en 3 aeropuertos mediante 6 empleados, cada vez
-que realiza una venta tiene los siguientes datos:
-número de aeropuerto
-número de empleado
-valor del pasaje
-cantidad de pasajes
+	A. cantidad de facturas emitidas
+	B. monto de cada factura
+	C. suma de las facturas (caja diaria)
+	D. cantidad total de artículos vendidos
+	E. cantidad vendida de cada artículo
+	F. cantidad de facturas emitidas para cada artículo
+	G. promedio de importe de las facturas
+	H. porcentual que representa el monto total de cada artículo sobre el total
+
+4. Una companía aérea vende boletos en 3 aeropuertos mediante 6 empleados, cada vez que realiza una venta tiene los siguientes datos:
+	A. número de aeropuerto
+	B. número de empleado
+	C. valor del pasaje
+	D. cantidad de pasajes
+
 los datos finalizan con número de empleado = 99, se desea saber
-A.
-B.
-C.
-D.
-E.
-F.
-G.
-cantidad de pasajes vendidos por aeropuerto
-cantidad de pasajes vendidos por cada empleado
-monto total vendido por empleado
-boleto de mayor valor
-porcentual que representa lo vendido por cada aeropuerto en dinero sobre el total
-cantidad de ventas que excedieron los $ 1000
-si cada boleto ya tiene incorporado el 10,5% de iva sobre el valor del boleto,
-cuánto hay que pagarle al fisco
-H. si sobre el total hay que pagar el 3% de ingresos brutos, cuál es ese monto
-5. Un restaurant tiene 6 mozos y 12 mesas, cada vez que cobran una mesa se anotan los
-siguientes datos, que terminan con número de factura = 0
-número de factura
-número de mozo
-número de mesa
-cantidad de personas que comieron
-monto de la cuenta
+	A. cantidad de pasajes vendidos por aeropuerto
+	B. cantidad de pasajes vendidos por cada empleado
+	C. monto total vendido por empleado
+	D. boleto de mayor valor
+	E. porcentual que representa lo vendido por cada aeropuerto en dinero sobre el total
+	F. cantidad de ventas que excedieron los $ 1000
+	G. si cada boleto ya tiene incorporado el 10,5% de iva sobre el valor del boleto, cuánto hay que pagarle al fisco
+	H. si sobre el total hay que pagar el 3% de ingresos brutos, cuál es ese monto
+
+5. Un restaurant tiene 6 mozos y 12 mesas, cada vez que cobran una mesa se anotan los siguientes datos, que terminan con número de factura = 0
+	A. número de factura
+	B. número de mozo
+	C. número de mesa
+	D. cantidad de personas que comieron
+	E. monto de la cuenta
+
 Se desea saber lo siguiente
-A.
-B.
-C.
-D.
-E.
-F.
-cantidad de personas atendidas por cada mozo
-cantidad de facturas realizadas
-caja diaria realizada
-monto facturado por cada mesa en total
-porcentual facturado por cada mozo sobre el total
-si a cada mozo se le da el 5% de su venta cuánto le corresponde a cada uno
-G. cuál mozo atendió más personas en total
-H. cuántas facturas superaron $ 45
-I. mesa a la que se facturó más veces, o sea que más recambio de clientes tuvo
-6. Un supermercado realiza un estudio sobre sus ventas, para ello cuenta con seis
-secciones y 10 cajas. cada vez que realiza una cuenta tiene los siguientes datos
-número de caja
-número de seccion
-importe de la venta
-tiempo en caja
-cantidad de productos comprados
-nro de ticket
-los datos finalizan con número de caja = 0, si la compra supera los $50, se le realiza
-un 2% de descuento, se desea saber
-A.
-B.
-C.
-D.
-E.
-F.
-G.
-H.
-I.
-cantidad de tickets emitidos
-cantidad de tickets emitidos por caja
-ticket de mayor tiempo en caja
-monto recaudado por sección
-que porcentaje representa el monto recaudado por caja sobre el total
-cantidad de comprobantes con monto mayor a $ 100
-monto total descontado
-porcentual que representa el monto total descontado sobre el total vendido
-si cada cajero gana el 20 % de su recaudación cuánto cobra cada uno
-7. Una cartelera de cine tiene 5 sucursales y vende a un precio de 7 pesos las entradas para
-sus salas en los 3 turnos, si compran mas de 8 asientos en un solo ticket se le hará un 10%
-de descuento.
+	A. cantidad de personas atendidas por cada mozo
+	B. cantidad de facturas realizadas
+	C. caja diaria realizada
+	D. monto facturado por cada mesa en total
+	E. porcentual facturado por cada mozo sobre el total
+	F. si a cada mozo se le da el 5% de su venta cuánto le corresponde a cada uno
+	G. cuál mozo atendió más personas en total
+	H. cuántas facturas superaron $ 45
+	I. mesa a la que se facturó más veces, o sea que más recambio de clientes tuvo
+
+6. Un supermercado realiza un estudio sobre sus ventas, para ello cuenta con seis secciones y 10 cajas. cada vez que realiza una cuenta tiene los siguientes datos
+	A. número de caja
+	B. número de seccion
+	C. importe de la venta
+	D. tiempo en caja
+	E. cantidad de productos comprados
+	F. nro de ticket
+	
+los datos finalizan con número de caja = 0, si la compra supera los $50, se le realiza un 2% de descuento, se desea saber
+	A. cantidad de tickets emitidos
+	B. cantidad de tickets emitidos por caja
+	C. ticket de mayor tiempo en caja
+	D. monto recaudado por sección
+	E. que porcentaje representa el monto recaudado por caja sobre el total
+	F. cantidad de comprobantes con monto mayor a $ 100
+	G. monto total descontado
+	H. porcentual que representa el monto total descontado sobre el total vendido
+	I. si cada cajero gana el 20 % de su recaudación cuánto cobra cada uno
+
+7. Una cartelera de cine tiene 5 sucursales y vende a un precio de 7 pesos las entradas para sus salas en los 3 turnos, si compran mas de 8 asientos en un solo ticket se le hará un 10% de descuento.
 En este momento se estan exhibiendo las siguientes películas
-1.
-2.
-3.
-4.
-Belleza americana
-El informante
-La hija del general
-Al filo de la muerte
+	1. Belleza americana
+	2. El informante
+	3. La hija del general
+	4. Al filo de la muerte
+
 Cada vez que compran, le dan un ticket donde figuran
-
-
-
-
-Número de sucursal
-Número de película
-Cantidad de asientos comprados
-TurnO
+	A. Número de sucursal
+	B. Número de película
+	C. Cantidad de asientos comprados
+	D. Turno
+	
 Se desea saber
-a.
-b.
-c.
-d.
-e.
-f.
-g.
-h.
-Cantidad de asientos vendidos en cada turno
-Pelicula de mayor recaudación
-Sucursal que vendió menos en total en pesos
-Si cada sucursal recibe un 20% de lo recaudado, cuánto ganó c/u
-Porcentual que representa lo recaudado por pelicula sobre el total
-Ticket de menor valor
-Cantidad de asientos vendidos para la pelicula 2 en la sucursal 3 y turno Tarde
-Cuál fue el promedio de asientos solicitados por cada sucursal
-8. Un noticiero de TV tiene 10 comentaristas para cubrir 5 móviles, al término de
-cada transmisión presentan un informe con los siguientes datos
-código de comentarista
-número de movil
-categoría
-cantidad de horas
-localidad
+	A. Cantidad de asientos vendidos en cada turno
+	B. Pelicula de mayor recaudación
+	C. Sucursal que vendió menos en total en pesos
+	D. Si cada sucursal recibe un 20% de lo recaudado, cuánto ganó c/u
+	E. Porcentual que representa lo recaudado por pelicula sobre el total
+	F. Ticket de menor valor
+	G. Cantidad de asientos vendidos para la pelicula 2 en la sucursal 3 y turno Tarde
+	H. Cuál fue el promedio de asientos solicitados por cada sucursal
+
+8. Un noticiero de TV tiene 10 comentaristas para cubrir 5 móviles, al término de cada transmisión presentan un informe con los siguientes datos
+	A. código de comentarista
+	B. número de movil
+	C. categoría
+	D. cantidad de horas
+	E. localidad
 las categorias son 3
-1. policiales
-2. políticas
-3. economía
+	A. policiales
+	B. políticas
+	C. economía
 las localidades son 4
-1.
-2.
-3.
-4.
-Capital Federal
-Gran Bs. As.
-interior
-exterior
+	A. Capital Federal
+	B. Gran Bs. As.
+	C. interior
+	D. exterior
+
 Se desea saber
-a.
-b.
-c.
-d.
-e.
-f.
-g.
-h.
-cantidad de hs trabajadas por cada comentarista
-localidad desde donde se transmitió más veces
-porcentual que representa la totalidad en hs de cada categoría sobre el total
-promedio de hs trabajadas por cada comentarista
-cantidad de veces que se transmitió política desde el exterior
-que categoría fue la menos transmitida en total
-que transmisión fue la de mayor duracion en hs
-el comentarista 1 en que localidad trabajó más
+	A. cantidad de hs trabajadas por cada comentarista
+	B. localidad desde donde se transmitió más veces
+	C. porcentual que representa la totalidad en hs de cada categoría sobre el total
+	D. promedio de hs trabajadas por cada comentarista
+	E. cantidad de veces que se transmitió política desde el exterior
+	F. que categoría fue la menos transmitida en total
+	G. que transmisión fue la de mayor duracion en hs
+	H. el comentarista 1 en que localidad trabajó más
+
 9. Una empresa de micros vende boletos a 3 destinos
-Mar del Plata
-Necochea
-Bahía Blanca
+	A. Mar del Plata
+	B. Necochea
+	C. Bahía Blanca
+
 tiene 2 clases
-Turista
-Pullman
-$ 25.-
-$ 40.-
-Cada vez que realiza una venta representa un asiento y se tiene la siguiente
-información:
-a. número de ticket
-b. número de destino
-c. número de clase
+	A. Turista - $25
+	B. Pullman - $40
+Cada vez que realiza una venta representa un asiento y se tiene la siguiente información:
+	A. número de ticket
+	B. número de destino
+	C. número de clase
 se desea saber
-1.
-2.
-3.
-4.
-5.
-6.
-cantidad total de boletos vendidos
-promedio del valor de boleto vendido en dinero
-porcentual que representa la cantidad vendida en cada clase sobre el total
-cuántos boletos se vendieron a necochea en pullman
-cuál destino es el más solicitado en total
-cuál clase en total es la menos solicitada
+	A. cantidad total de boletos vendidos
+	B. promedio del valor de boleto vendido en dinero
+	C. porcentual que representa la cantidad vendida en cada clase sobre el total
+	D. cuántos boletos se vendieron a necochea en pullman
+	E. cuál destino es el más solicitado en total
+	F. cuál clase en total es la menos solicitada

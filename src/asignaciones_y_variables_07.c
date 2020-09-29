@@ -22,6 +22,7 @@ float producto(float arg0, float arg1);
 
 /* Función principal */
 int main() {
+	clrscr();
 	/* Declaración de variables locales */
 	float valor0, valor1, res_suma, res_resta, res_prod;
 	
@@ -42,7 +43,8 @@ int main() {
 }
 
 /* Otras funciones */
-	/* Declaración de clrscr() */
+	/* Decla
+	 * clrscr();ración de clrscr() */
 void clrscr(void) {
 	system("clear");
 }

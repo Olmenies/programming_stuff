@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES
+*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES 08
 *	Consigna: Ingresar la edad y la altura de dos personas, indicar la estatura del de mayor edad.
 *	Alumno: Nicolás Esteban Olmedo
 *

@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES
+*	Título: EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES 01
 *	Consigna: Ingresar 25 números, calcular su promedio.
 *	Alumno: Nicolás Esteban Olmedo
 *

@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES
+*	Título: EJERCICIOS DE OPERACIONES CONDICIONALES 01
 *	Consigna: Ingresar dos valores, indicar si son iguales.
 *	Alumno: Nicolás Esteban Olmedo
 *

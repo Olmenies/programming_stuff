@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES
+*	Título: EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES 03
 *	Consigna: Ingresar N sueldos e indicar su suma y su promedio.
 *	Alumno: Nicolás Esteban Olmedo
 *
@@ -29,7 +29,7 @@ int main() {
 	scanf("%d", &cant_sueldos);
 
 	for (i=0; i<=(cant_sueldos - 1); i++) {
-		printf("Ingrear sueldo(%d restantes): ",(cant_sueldos-i));
+		printf("Ingresar sueldo(%d restantes): ",(cant_sueldos-i));
 		scanf("%d", &sueldo);
 		acum += sueldo;
 	}
