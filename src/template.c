@@ -7,7 +7,7 @@
 */
 
 /* Directivas del preprocesador */
-/* Macros del procesador */
+/* Macros del preprocesador */
 /* Declaraciones globales */
 	/* Declaración de variables globales */
 	/* Declaración de prototipos de funciones */

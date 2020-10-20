@@ -1,4 +1,6 @@
+########################################################################
 EJERCICIOS DE VARIABLES Y ASIGNACIONES
+########################################################################
 1. Ingresar dos valores enteros y sumarlos.
 2. Ingresar tres valores, imprimir la suma total, sólo sabe sumar de a dos.
 3. Ingresar tres valores y sumarlos, se puede sumar de a varios operandos.
@@ -10,7 +12,9 @@ EJERCICIOS DE VARIABLES Y ASIGNACIONES
 9. Ingresar el tiempo trabajado por un operario y si el valor de la hora es de 10 pesos, calcular su sueldo.
 10. Una concesionaria de autos paga a cada vendedor $ 500 por mes más un plus del 10 % del precio sobre cada vehículo vendido y un valor constante de 50 pesos por cada uno de ellos, sólo vende un tipo de vehículo, calcular su sueldo.
 
+########################################################################
 EJERCICIOS DE OPERACIONES CONDICIONALES
+########################################################################
 1. Ingresar dos valores, indicar si son iguales.
 2. Ingresar un valor indicar si es positivo, negativo o cero.
 3. Ingresar dos valores y realizar el producto, si el 1ro es mayor al 2do, si son iguales solo indicarlo.
@@ -25,7 +29,9 @@ EJERCICIOS DE OPERACIONES CONDICIONALES
 12. Sobre los datos del ejercico anterior imprimir los sueldos de los empleados con más de 5 años de antigüedad.
 13. Ingresar las horas trabajadas por un empleado y su categoría, calcular su sueldo si se sabe que los de la categoría 1 cobran $50, la 2 cobra $ 70 y la 3 cobra $ 80.
 
+########################################################################
 EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES
+########################################################################
 1. Ingresar 25 números, calcular su promedio.
 2. Ingresar 20 notas y nombres de alumnos, indicar los aplazados ( menos de 4) y el nombre a quien pertenece esa nota.
 3. Ingresar N sueldos e indicar su suma y su promedio.	
@@ -52,8 +58,10 @@ EJERCICIOS SOBRE CICLOS, CONTADORES y ACUMULADORES
 		C. Cuánto se vendio del artículo 1 en cantidad.
 		D. Cuántas facturas mayores de $ 3000 se hicieron.
 		E. Qué porcentaje representa el monto vendido por cada artículo sobre el total.
-		
+
+########################################################################		
 EJERCICIOS SOBRE MAXIMOS y MINIMOS
+########################################################################
 1. Ingresar N temperaturas e indicar la máxima y mínima.
 2. Ingresar temperaturas hasta una temperatura igual a 1000, indicar la mayor y menor.
 3. Ingresar los sueldos y nombres de 30 empleados, indicar el sueldo mayor y a quién pertenece.
@@ -61,7 +69,9 @@ EJERCICIOS SOBRE MAXIMOS y MINIMOS
 5. En una carrera de autos se ingresan el número de auto y su tiempo, indicar cuál ganó y cúal fue el último.
 6. Ingresar el precio de N artículos, indicar el más caro, el más barato, el precio promedio y la suma de todos los precios.
 
+########################################################################
 EJERCICIOS COMBINADOS
+########################################################################
 1. En una empresa los empleados cobran un sueldo según la categoria, son 50 empleados y 3 categorías.
 		A. Categoría 1 = $ 1500
 		B. Categoría 2 = $ 2000
@@ -221,3 +231,72 @@ se desea saber
 	D. cuántos boletos se vendieron a necochea en pullman
 	E. cuál destino es el más solicitado en total
 	F. cuál clase en total es la menos solicitada
+	
+########################################################################
+EJERCICIOS DE VECTORES
+########################################################################
+
+1. Ingresar datos y cargar un vector de 50 elementos, calcular
+	A. la suma de todos los elementos
+	B. El producto de todos los elementos
+	C. Mostrar del vector el elemento 50 al 1
+	D. Imprimir las componentes de indice par
+	E. Imprimir las componentes de indice impar
+
+2. Ingresar datos y cargar un vector de 30 elementos, imprimir
+	A. Cantidad de valores positivos
+	B. Cantidad de valores negativos
+	C. Cantidad de ceros
+	D. Promedio de los positivos
+	E. Promedio general
+
+3. Ingresar datos y cargar un vector de 10 elementos, imprimir
+	A. Cantidad de elementos del vector cuyo valor sea igual a 1
+	B. Suma de los elementos del vector
+	C. Porcentual que representa cada elemento sobre el total
+	
+3. Ingresar 25 edades, y calcular
+	A. Edad promedio
+	B. Imprimir las edades mayores a 34 años
+	C. Imprimir las edades menores a 21 años
+	
+Ingresar 10 sueldos y edades de una empresa y calcular
+	A. Sueldo promedio
+	B. Sueldo promedio de los empleados que tienen entre 23 y 40 años
+	C. Edad promedio
+	D. Cantidad de empleados mayores a 30 años y sueldo menor a $ 1000.
+	E. Cantidad de empleados con edades menor a la edad promedio
+
+Dadas las 40 notas y edades de los alúmnos de un colegio calcular
+	A. nota promedio
+	B. cantidad de alúmnos aplazados
+	C. cantidad de alúmnos promocionados
+	D. nota promedio de los alúmnos mayores a 15 años
+
+Nota: todos los ejercicios de Ejercicios Combinados pueden resolverse con vectores
+
+########################################################################
+TP N°5 - Estructuras de datos (vectores)
+########################################################################
+1. Cree un vector de enteros de 5 posiciones, inicializándolo con los valores del
+	10,100,94,84,11
+	
+2. Cree un vector de 10 posiciones, pida al usuario que ingrese los 10 valores y luego muéstrelo de manera inversa.
+
+3. Cree una matriz de enteros de 3 x 3. Inicialícela en base a la siguiente tabla:
+100 74 99
+11 36 68
+23 9 81
+
+4. Cree un array de char y escriba la palabra “Bienvenidos”. Responda:
+	a. ¿De cuantas posiciones deberá ser el vector?
+
+5. Ingrese 10 valores en un vector de enteros. Sume todos los valores muestre el resultado en pantalla. Responda:
+	a. ¿Cuántas líneas de código necesito para desarrollar el programa sin utilizar ciclos de repetición?
+	b. Implemente la misma solución con ciclos de repetición, y responda ¿Cuántas líneas de código necesito en esta segunda versión?
+
+6. Desarrolle un programa que almacene en un vector el número de días que tiene cada mes (supondremos que es un año no bisiesto), pida al usuario que le indique un mes (1=enero,12=diciembre) y muestre en pantalla el número de días que tiene ese mes.
+
+7. Desarrolle un programa que pida al usuario los datos de dos matrices de 2x2, y calcule y muestre su producto. Investigue como obtener el producto de dos matrices.
+
+8. Desarrolle un programa que, a partir de los datos prefijados de los días de cada mes, diga qué meses tienen 30 días. Se deberá mostrar el número de cada mes, pero empezando a contar desde 1 (abril será el mes 4).
