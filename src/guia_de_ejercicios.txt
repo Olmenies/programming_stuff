@@ -243,7 +243,7 @@ EJERCICIOS DE VECTORES
 	D. Imprimir las componentes de indice par
 	E. Imprimir las componentes de indice impar
 
-2. Ingresar datos y cargar un vector de 30 elementos, imprimir
+	2. Ingresar datos y cargar un vector de 30 elementos, imprimir
 	A. Cantidad de valores positivos
 	B. Cantidad de valores negativos
 	C. Cantidad de ceros
