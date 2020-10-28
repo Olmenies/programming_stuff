@@ -39,7 +39,6 @@ int main() {
 	for(i=1;i<=ARRAY_LEN;i++) {
 		printf("Ingresar valor: ");
 		scanf("%d", &valor);
-
 		
 		if(valor<0) {
 			array_input(array_cont, array_acum, 1, valor);
@@ -50,6 +49,7 @@ int main() {
 		else {
 			array_input(array_cont, array_acum, 3, valor);
 		}
+
 		printf("***\n");
 	}
 
