@@ -11,14 +11,9 @@
 *
 */
 
-/************************************************************************************************************
- * To do: hacer un proc que permita modificar el array en main()
- * *********************************************************************************************************/
-
 /* Directivas del preprocesador */
 #include <stdio.h>
-#define ARRAY_VALUE 6
-#define ARRAY_POS 4
+#define ARRAY_LEN 6
 
 /* Macros del procesador */
 
@@ -28,63 +23,46 @@
 float calc_prom(float arg0, float arg1);
 void clrscr(void);
 void line(void);
-void view_array(int *array, int valor_proc, int pos_proc, int i_proc);
+void array_input(int *array_cont, int *array_acum, int pos, int valor);
 
 /* Función principal */
 int main() {
 	clrscr();
 	/* Declaraciones locales */
-	int array[ARRAY_VALUE][ARRAY_POS] = {0};
+	int array_cont[4] = {0};
+	int array_acum[4] = {0};
 
 	int i=0, valor=0;
 	float prom_pos=0, prom_total=0;
 
-	int *array_pointer = &array;
-
 	/* Input de data */
-	for(i=1;i<=ARRAY_VALUE-1;i++) {
-//		printf("Posición: %d\n", i);
+	for(i=1;i<=ARRAY_LEN;i++) {
 		printf("Ingresar valor: ");
 		scanf("%d", &valor);
+
 		
 		if(valor<0) {
-			view_array(*array_pointer, valor, 1, i);
-			array[i][1]=valor;
-			array[1][0]++;
-			array[0][1]+=valor;
-			printf("Valor: Array[%d][1]\n", i);
-			printf("Contador: Array[1][0] = %d\n", array[1][0]);
-			printf("Acumulador: Array[0][1] = %d\n", array[0][1]);
+			array_input(array_cont, array_acum, 1, valor);
 		}
 		else if(valor==0) {
-			array[i][2]=valor;
-			array[2][0]++;
-			array[0][2]+=valor;
-			printf("Valor: Array[%d][2]\n", i);
-			printf("Contador: Array[2][0] = %d\n", array[2][0]);
-			printf("Acumulador: Array[0][2] = %d\n", array[0][2]);
+			array_input(array_cont, array_acum, 2, valor);
 		}
 		else {
-			array[i][3]=valor;
-			array[3][0]++;
-			array[0][3]+=valor;
-			printf("Valor: Array[%d][3]\n", i);
-			printf("Contador: Array[3][0] = %d\n", array[3][0]);
-			printf("Acumulador: Array[0][3] = %d\n", array[0][3]);
+			array_input(array_cont, array_acum, 3, valor);
 		}
 		printf("***\n");
 	}
 
 	/* Procesamiento de data */
-	prom_pos = calc_prom(array[0][3],array[3][0]);
-	prom_total = calc_prom((array[0][1]+array[0][2]+array[0][3]),(ARRAY_VALUE-1));
+	prom_pos = calc_prom(array_acum[3],array_cont[3]);
+	prom_total = calc_prom((array_acum[1]+array_acum[2]+array_acum[3]),ARRAY_LEN);
 
 	/* Output de data */
 	line();
 
-	printf("Cantidad de valores positivos: %d\n", array[3][0]);
-	printf("Cantidad de valores negativos: %d\n", array[1][0]);
-	printf("Cantidad de ceros: %d\n", array[2][0]);
+	printf("Cantidad de valores positivos: %d\n", array_cont[3]);
+	printf("Cantidad de valores negativos: %d\n", array_cont[1]);
+	printf("Cantidad de ceros: %d\n", array_cont[2]);
 	printf("Promedio de los positivos: %.2f\n", prom_pos);
 	printf("Promedio general: %.2f\n", prom_total);
 
@@ -115,20 +93,10 @@ void line(void) {
 	}
 }
 
-	/* Definición de update_array() */
-/*void update_array(int *array, int valor_proc, int pos_proc, int i) {
-	array[i][pos_proc]=valor;
-	array[pos_proc][0]++;
-	array[0][pos_proc]+=valor;
-	printf("Valor: Array[%d][1]\n", i);
-	printf("Contador: Array[1][0] = %d\n", array[pos_proc][0]);
-	printf("Acumulador: Array[0][1] = %d\n", array[0][pos_proc]);
-} */
-
-	/* Definición de view_array() */
-void view_array(int array_pointer_proc, int valor_proc, int pos_proc, int i_proc) {
-	printf("//////////////////////////////////////////////////////////");
-	printf("Estoy en view_array");
-	printf("Voy a imprimir lo que está en el array :)");
-
+	/* Definición de array_input() */
+void array_input(int *array_cont, int *array_acum, int pos, int valor) {
+	array_cont[pos]++;
+	array_acum[pos]+=valor;
+	printf("array_cont[%d] = %d\n",pos, array_cont[pos]);
+	printf("array_acum[%d] = %d\n",pos, array_acum[pos]);
 }
