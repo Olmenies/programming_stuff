@@ -18,3 +18,4 @@
 	/* Output de data */
 /* Otras funciones */
 	/* Definición de clrscr() */
+	/* Definición de line() */

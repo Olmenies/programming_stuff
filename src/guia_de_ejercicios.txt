@@ -165,7 +165,7 @@ los datos finalizan con número de caja = 0, si la compra supera los $50, se le 
 
 7. Una cartelera de cine tiene 5 sucursales y vende a un precio de 7 pesos las entradas para sus salas en los 3 turnos, si compran mas de 8 asientos en un solo ticket se le hará un 10% de descuento.
 En este momento se estan exhibiendo las siguientes películas
-	1. Belleza americana
+	1. Belleza americana 
 	2. El informante
 	3. La hija del general
 	4. Al filo de la muerte
@@ -243,7 +243,7 @@ EJERCICIOS DE VECTORES
 	D. Imprimir las componentes de indice par
 	E. Imprimir las componentes de indice impar
 
-	2. Ingresar datos y cargar un vector de 30 elementos, imprimir
+2. Ingresar datos y cargar un vector de 30 elementos, imprimir
 	A. Cantidad de valores positivos
 	B. Cantidad de valores negativos
 	C. Cantidad de ceros
@@ -255,23 +255,23 @@ EJERCICIOS DE VECTORES
 	B. Suma de los elementos del vector
 	C. Porcentual que representa cada elemento sobre el total
 	
-3. Ingresar 25 edades, y calcular
+4. Ingresar 25 edades, y calcular
 	A. Edad promedio
 	B. Imprimir las edades mayores a 34 años
 	C. Imprimir las edades menores a 21 años
 	
-Ingresar 10 sueldos y edades de una empresa y calcular
+5. Ingresar 10 sueldos y edades de una empresa y calcular
 	A. Sueldo promedio
 	B. Sueldo promedio de los empleados que tienen entre 23 y 40 años
 	C. Edad promedio
-	D. Cantidad de empleados mayores a 30 años y sueldo menor a $ 1000.
+	D. Cantidad de empleados mayores a 30 años y sueldo menor a $ 1000
 	E. Cantidad de empleados con edades menor a la edad promedio
 
-Dadas las 40 notas y edades de los alúmnos de un colegio calcular
-	A. nota promedio
-	B. cantidad de alúmnos aplazados
-	C. cantidad de alúmnos promocionados
-	D. nota promedio de los alúmnos mayores a 15 años
+6. Dadas las 40 notas y edades de los alúmnos de un colegio calcular
+	A. Nota promedio
+	B. Cantidad de alúmnos aplazados
+	C. Cantidad de alúmnos promocionados
+	D. Nota promedio de los alúmnos mayores a 15 años
 
 Nota: todos los ejercicios de Ejercicios Combinados pueden resolverse con vectores
 
