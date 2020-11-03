@@ -132,10 +132,10 @@ void calc_acum(float *array_notas, int *array_edades, float *acum_parcial, int *
 /* Definición de output_data() */
 void output_data(float prom_general, int *array_estado, float prom_parcial) {
 	line();
-	printf("prom_general = %.2f\n", prom_general);
-	printf("alumnos aplazados = %d\n", array_estado[0]);
-	printf("alumnos desaprobados = %d\n", array_estado[1]);
-	printf("alumnos aprobados = %d\n", array_estado[2]);
-	printf("prom_parcial = %.2f\n", prom_parcial);
+	printf("A. Promedio general: %.2f\n", prom_general);
+	printf("B. Alumnos aplazados: %d\n", array_estado[0]);
+	printf("B.5 Alumnos desaprobados:  %d\n", array_estado[1]);
+	printf("C. Alumnos aprobados: %d\n", array_estado[2]);
+	printf("D. Promedio alumno mayores a 15: %.2f\n", prom_parcial);
 	line();
 }
