@@ -42,7 +42,7 @@ int main() {
 	input_data(array_notas, array_edades);
 
 	/* Procesamiento de data */
-	for(i=0; i<=ARRAY_SIZE-1; i++) {
+	for(i=0; i<=ARRAY_SIZE; i++) {
 		acum = acum + array_notas[i];
 	}
 
@@ -76,7 +76,7 @@ void line(void) {
 /* Definición de input_data() */
 void input_data(float *array_notas, int *array_edades) {
 	int i=0;
-	for(i=0; i<=ARRAY_SIZE-1; i++) {
+	for(i=0; i<=ARRAY_SIZE; i++) {
 		do {
 			printf("Ingresar nota del alumno (%d restantes): ", ARRAY_SIZE-i);
 			scanf("%f", &array_notas[i]);
@@ -96,7 +96,7 @@ void input_data(float *array_notas, int *array_edades) {
 /* Definición de calc_estado() - Separa los alumnos en aplazados, reprobados y aprobados*/
 void calc_estado(float *array_notas, int *array_estado) {
 	int i=0;
-	for(i=0; i<=ARRAY_SIZE-1; i++) {
+	for(i=0; i<=ARRAY_SIZE; i++) {
 		if(array_notas[i] < 4) {
 			array_estado[0]++;
 		} else if((array_notas[i] >= 4) && (array_notas[i] < 7)) {
