@@ -1,11 +1,11 @@
 /*
 *
-*	Título: EJERCICIOS DE VECTORES 06
+*	Título: TP DE VECTORES 06
 *	Consigna: 6. Dadas las 40 notas y edades de los alúmnos de un colegio calcular
 *	A. (x) Nota promedio
 *	B. (x) Cantidad de alúmnos aplazados
 *	C. (x) Cantidad de alúmnos promocionados
-*	D. (x) Nota promedio de los alúmnos mayores a 15 años
+*	D. (x) Nota promedio de los alumnos mayores a 15 años
 *	Alumno: Nicolás Esteban Olmedo
 *
 */

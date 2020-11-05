@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE VECTORES 03
+*	Título: TP DE VECTORES 03
 *	Consigna: Ingresar datos y cargar un vector de 10 elementos, imprimir:
 *	A. (x) Cantidad de elementos del vector cuyo valor sea igual a 1
 *	B. (x) Suma de los elementos del vector

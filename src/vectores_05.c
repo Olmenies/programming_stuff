@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE VECTORES 05
+*	Título: TP DE VECTORES 05
 *	Consigna: 5. Ingresar 10 sueldos y edades de una empresa y calcular
 *	A. (o) Sueldo promedio
 *	B. () Sueldo promedio de los empleados que tienen entre 23 y 40 años

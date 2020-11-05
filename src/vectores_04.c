@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE VECTORES 04
+*	Título: TP DE VECTORES 04
 *	Consigna: 4. Ingresar 25 edades, y calcular
 *	A. (o) Edad promedio
 *	B. () Imprimir las edades mayores a 34 años

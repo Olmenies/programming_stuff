@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE VECTORES 01
+*	Título: TP DE VECTORES 01 
 *	Consigna: 1. Ingresar datos y cargar un vector de 50 elementos, calcular
 *	A. (x) la suma de todos los elementos
 *	B. (x) El producto de todos los elementos

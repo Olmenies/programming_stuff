@@ -1,6 +1,6 @@
 /*
 *
-*	Título: EJERCICIOS DE VECTORES 02
+*	Título: TP DE VECTORES 02
 *	Consigna: Ingresar datos y cargar un vector de 30 elementos, imprimir:
 *	A. (x) Cantidad de valores positivos
 *	B. (x) Cantidad de valores negativos
