@@ -68,9 +68,9 @@ int main() {
 							scanf("%d", &valor);
 							busqueda_binaria(array, valor, &flag, &posicion);
 							if(flag == 0) {
-							printf("Valor %d no encontrado\n", valor);
+								printf("Valor %d no encontrado\n", valor);
 							} else {
-							printf("Valor %d encontradon en la posicion %d\n", valor, posicion);
+								printf("Valor %d encontradon en la posicion %d\n", valor, posicion);
 							}
 							flag = 0;
 							posicion = 0;
@@ -82,9 +82,9 @@ int main() {
 							scanf("%d", &valor);
 							busqueda_secuencial(array, valor, &flag, &posicion);
 							if(flag == 0) {
-							printf("Valor %d no encontrado\n", valor);
+								printf("Valor %d no encontrado\n", valor);
 							} else {
-							printf("Valor %d encontradon en la posicion %d\n", valor, posicion);
+								printf("Valor %d encontradon en la posicion %d\n", valor, posicion);
 							}
 							flag = 0;
 							posicion = 0;

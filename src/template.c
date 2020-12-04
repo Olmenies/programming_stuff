@@ -19,3 +19,4 @@
 /* Otras funciones */
 	/* Definición de clrscr() */
 	/* Definición de line() */
+	/* Deinición de pausa() */
